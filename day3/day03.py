@@ -24,6 +24,8 @@ for i in range(0, len(values)):
 #create empty list, as long as one of the inputs (12)
 gammaList = [None] * len(listList[0])
 
+
+#this finds the most common bit in each place, and creates a new list with only the most common bits per place
 for i in range(0, len(listList[0])):
     for j in range(0, len(listList)):
         ans = ExtractElement(listList, i)
